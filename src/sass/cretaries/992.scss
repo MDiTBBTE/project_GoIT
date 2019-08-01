@@ -1,0 +1,24 @@
+@media screen and (min-width:991px) {
+  .cretaries {
+    &-wrapper {
+      min-width: 992px;
+      width: 80%;
+      margin: 0 auto;
+      padding: 0 3%;
+    }
+
+    &__header {
+      width: 370px;
+      line-height: 50px;
+    }
+
+    &__photo {
+      width: 350px;
+    }
+    
+    .slider-2 {
+      width: 95%;
+      max-width: 100%;
+    }
+  } 
+}

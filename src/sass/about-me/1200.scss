@@ -1,0 +1,11 @@
+@media screen and (min-width: 1200px) {
+  .slider-record {
+    &__tittle {
+      line-height: 55px;
+    }
+  }
+
+    .slider__text-1 {
+      @include text-big;
+  }
+}

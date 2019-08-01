@@ -1,0 +1,28 @@
+@media screen and (min-width: 767px) {
+  .skills {
+    .wrapper { 
+      height: 496px;
+      padding: 40px 3% 65px;
+      
+      &::after {
+        content: '';
+        display: block;
+        width: 45%;
+        top: 3%;
+        right: 4%;
+      }
+    }
+    
+    &__text {
+      width: 80%;
+
+      &::after {
+        left: -23%;
+      }
+    }
+
+    &__content {
+      width: 50%;
+    }
+  }
+}

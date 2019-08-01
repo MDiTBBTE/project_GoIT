@@ -1,0 +1,93 @@
+.section__first {
+  overflow: hidden;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 3%;
+}
+
+.main__title--word {
+  @include tittle;
+  padding: 5px 0;
+  color: #000000;
+}
+
+.inform__title {
+  @include tittle;
+  margin-bottom: 30px;
+  padding: 5px 0;  
+  color: #ffffff;
+  line-height: 45px;
+} 
+
+.title__black,
+.title__black--second {
+  background-color: #000000;
+  line-height: 1.4;
+}
+
+.text__inform {
+  position: relative;
+  padding-left: 76px;
+  padding-bottom: 30px;
+  @include text-bold;
+  &--description {
+    line-height: 1.5;
+  }
+}
+
+.icon__dash::after {
+  content: '';
+  position: absolute;
+  width: 36px;
+  height: 8px;
+  background:#000;
+  top: 10px;
+  left: 21px;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.introduction__part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 12px;
+}
+
+.introduction__part--text {
+  position: relative;
+  padding-top: 40px;
+  width: 320px;
+}
+
+.icon__square::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: #000000;
+  margin-top: -25px;
+}
+
+.subtitle {
+  @include subtittle;  
+  color: #000000;
+  padding-bottom: 18px;
+}
+
+.general__inform,
+.general__inform--second {
+@include text;
+color: #000000;
+line-height: 1.5; 
+}
+
+.general__inform--second {
+  margin: 22px 0;
+}
+
+
+
+  
+
+

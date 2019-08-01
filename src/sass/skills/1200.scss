@@ -1,0 +1,28 @@
+@media screen and (min-width: 1200px) {
+  .skills {
+    .wrapper {
+      padding: 25px 3%;
+
+      &::after {
+        width: 45%;
+        top: 15%;
+      }
+    }
+
+    &__content {
+    }
+
+    &__tittle {
+      width: 300px;
+      line-height: 55px;
+    }
+
+    &__text {
+      @include text-big;
+      
+      &::after {
+        left: -16%;
+      }
+    }
+  }
+}

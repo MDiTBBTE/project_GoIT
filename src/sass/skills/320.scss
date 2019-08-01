@@ -1,0 +1,54 @@
+.skills {
+  .wrapper {
+    width: 94%;
+    margin: 0 auto;
+    padding: 0 3% 40px;
+    position: relative;
+
+    
+    &::after {
+      content: '';
+      display: none;
+      position: absolute;
+      background-image: url(../build/images/man-laptop.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 50%;
+      height: 496px;
+      top: 0;
+      right: 0;         
+    }
+  }
+
+ 
+
+  &__tittle {
+    width: 305px;
+    margin-bottom: 30px;
+    line-height: 50px;
+    @include subtittle;
+
+    &--bg {
+      background-color: #000;
+      color: #fff;
+      margin-top: 10px;
+    }
+  }
+  &__text {
+      @include text;
+      position: relative;
+      width: 75%;
+      margin: 0 0 0 20%;
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 36px;
+      height: 8px;
+      background-color: #000;
+      top: 8%;
+      left: -23%;
+    }
+  }
+}
